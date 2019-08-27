@@ -12,3 +12,7 @@ jwt:
     authentication:
       path: /auth
       refresh: /refresh
+eureka: 
+  client:  
+    service-url: 
+      default-zone:  http://localhost:8777/eureka
