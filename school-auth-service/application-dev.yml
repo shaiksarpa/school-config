@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8765
 spring:
   data:
     mongodb:
@@ -15,4 +15,4 @@ jwt:
 eureka: 
   client:  
     service-url: 
-      default-zone:  http://localhost:8777/eureka
+      default-zone:  http://localhost:8761/eureka
